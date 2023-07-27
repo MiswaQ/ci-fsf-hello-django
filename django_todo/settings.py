@@ -33,7 +33,7 @@ SECRET_KEY = 'django-insecure-*up7ybihl7t3fto28db+_w=786k%2k8=8g!h@!7z_f=3nd)39-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-miswaq-cifsfhellodjango-zziq70b2y4a.ws-eu102.gitpod.io']
+ALLOWED_HOSTS = ['8000-miswaq-cifsfhellodjango-zziq70b2y4a.ws-eu102.gitpod.io', 'https://zka2023-django-todo-app-e86ac7f2fe68.herokuapp.com/']
 
 
 # Application definition
