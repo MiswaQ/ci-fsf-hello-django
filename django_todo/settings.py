@@ -34,7 +34,10 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-*up7ybihl7t3fto28db+_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = development
 
-ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
+if development:
+    ALLOWED_HOSTS = ['8000-miswaq-cifsfhellodjango-i4gblyunr8s.ws-eu102.gitpod.io']
+else:
+    ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
 
 
 # Application definition
